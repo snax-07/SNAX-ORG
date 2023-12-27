@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="cont.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/snax-org-high-resolution-logo-transparent.png" type="image/icon type">
+  <title>Contact US</title>
+</head>
+<body>
+<!-- This is the main section for contact page we are using form submit js library for mailing function without any data loss-->
+
+<!--This div contain both image and contact form for website-->
+
+<div class="main-cont">
+    <div class="form"> 
+    
+    <h2>Contact Us</h2>
+    
+    <!-- This form functionality is fully loaded by form submit site which help you to send mails without any storage limit and any type of subscription for it -->
+      <form action="https://formsubmit.co/swapnilnade07@gmail.com" method="POST">
+        
+        <input type="hidden" name="_subject" value="ENQUIRY FROM SNAX ORG">
+        <input type="hidden" name="_next" value="https:// /thanks.html">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="text" name="_honey" style="display:none">
+        
+        <!--This above part is for some function which can be ignored for sometime-->
+        
+        
+        <!--following tags are most important and they are displayed on screen for take a submission from a user and submit to a admin of this organisation for any other query you can tell me on enquiry of snax-07.vercel.app site -->
+        
+        <input type="text"  placeholder="Full Name"  name="name" required>
+        <input type="email"  placeholder="Ex: joesmith@gmail.com" name="email" required>
+          <textarea class="txt" type="text" placeholder="What do you think ?" name="message" required></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+    
+    <!-- This div is used for image-->
+    
+    <div class="img">
+      <img src="customer-service-center-3483612-2912013.png" alt="Image">
+    </div>
+    
+</div>
+<script>
+  function thank(){
+    window.location.href = "thanks.html";
+  }
+</script>
+
+</body>
+  </html>
